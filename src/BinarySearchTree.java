@@ -5,6 +5,9 @@ public class BinarySearchTree<E> {
     private Node<E> root;
     private Comparator<? super E> comparator;
 
+    /**
+     * @param comparator
+     */
     //Constructor que acepta un Comparator
     public BinarySearchTree(Comparator<? super E> comparator) {
         this.comparator = comparator;
